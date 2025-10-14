@@ -1,0 +1,270 @@
+=== MiniDC Experiment - CloudSim Plus ===
+
+INFO  Automatically enabling computation of utilization statistics for VMs on Host could not be performed because it doesn't have VMs yet. You need to enable it for each VM created.
+INFO  Automatically enabling computation of utilization statistics for VMs on Host could not be performed because it doesn't have VMs yet. You need to enable it for each VM created.
+INFO  
+================== Starting CloudSim Plus 8.5.1 ==================
+
+INFO  0.00: #Datacenter 1 is starting...
+INFO  Broker 2 is starting...
+INFO  Entities started.
+INFO  0.00: DatacenterBrokerSimple2: List of 1 datacenters(s) received.
+INFO  0.00: DatacenterBrokerSimple2: Trying to create Vm 0 inside #Datacenter 1
+INFO  0.00: DatacenterBrokerSimple2: Trying to create Vm 1 inside #Datacenter 1
+INFO  0.00: DatacenterBrokerSimple2: Trying to create Vm 2 inside #Datacenter 1
+INFO  0.00: DatacenterBrokerSimple2: Trying to create Vm 3 inside #Datacenter 1
+INFO  0.00: DatacenterBrokerSimple2: Trying to create Vm 4 inside #Datacenter 1
+INFO  0.00: DatacenterBrokerSimple2: Trying to create Vm 5 inside #Datacenter 1
+INFO  0.00: HostSimple: Vm 0 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+INFO  0.00: VmAllocationPolicySimple: Vm 0 has been allocated to Host 0/#DC 1
+INFO  0.00: HostSimple: Vm 1 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+INFO  0.00: VmAllocationPolicySimple: Vm 1 has been allocated to Host 1/#DC 1
+INFO  0.00: HostSimple: Vm 2 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+INFO  0.00: VmAllocationPolicySimple: Vm 2 has been allocated to Host 0/#DC 1
+INFO  0.00: HostSimple: Vm 3 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+INFO  0.00: VmAllocationPolicySimple: Vm 3 has been allocated to Host 1/#DC 1
+INFO  0.00: HostSimple: Vm 4 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+INFO  0.00: VmAllocationPolicySimple: Vm 4 has been allocated to Host 0/#DC 1
+INFO  0.00: HostSimple: Vm 5 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+INFO  0.00: VmAllocationPolicySimple: Vm 5 has been allocated to Host 1/#DC 1
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 0 to Vm 0 inside Host 0/#DC 1.
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 1 to Vm 1 inside Host 1/#DC 1.
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 2 to Vm 2 inside Host 0/#DC 1.
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 3 to Vm 3 inside Host 1/#DC 1.
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 4 to Vm 4 inside Host 0/#DC 1.
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 5 to Vm 5 inside Host 1/#DC 1.
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 6 to Vm 0 inside Host 0/#DC 1.
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 7 to Vm 1 inside Host 1/#DC 1.
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 8 to Vm 2 inside Host 0/#DC 1.
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 9 to Vm 3 inside Host 1/#DC 1.
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 10 to Vm 4 inside Host 0/#DC 1.
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 11 to Vm 5 inside Host 1/#DC 1.
+INFO  0.10: DatacenterBrokerSimple2: All 12 waiting Cloudlets submitted to some VM.
+WARN  15.10: CloudletSchedulerTimeShared: Cloudlet 6 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  15.10: CloudletSchedulerTimeShared: Cloudlet 8 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  15.10: CloudletSchedulerTimeShared: Cloudlet 10 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  15.10: CloudletSchedulerTimeShared: Cloudlet 7 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  15.10: CloudletSchedulerTimeShared: Cloudlet 9 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  15.10: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  27.43: CloudletSchedulerTimeShared: Cloudlet 6 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  27.43: CloudletSchedulerTimeShared: Cloudlet 8 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  27.43: CloudletSchedulerTimeShared: Cloudlet 10 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  27.43: CloudletSchedulerTimeShared: Cloudlet 7 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  27.43: CloudletSchedulerTimeShared: Cloudlet 9 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  27.43: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+INFO  35.51: DatacenterBrokerSimple2: Cloudlet 0 finished in Vm 0 and returned to broker.
+WARN  39.86: CloudletSchedulerTimeShared: Cloudlet 8 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  39.86: CloudletSchedulerTimeShared: Cloudlet 10 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  39.86: CloudletSchedulerTimeShared: Cloudlet 7 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  39.86: CloudletSchedulerTimeShared: Cloudlet 9 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  39.86: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+INFO  49.90: DatacenterBrokerSimple2: Cloudlet 6 finished in Vm 0 and returned to broker.
+WARN  52.28: CloudletSchedulerTimeShared: Cloudlet 8 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  52.28: CloudletSchedulerTimeShared: Cloudlet 10 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  52.28: CloudletSchedulerTimeShared: Cloudlet 7 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  52.28: CloudletSchedulerTimeShared: Cloudlet 9 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  52.28: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+INFO  58.95: DatacenterBrokerSimple2: Cloudlet 1 finished in Vm 1 and returned to broker.
+WARN  64.61: CloudletSchedulerTimeShared: Cloudlet 8 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  64.61: CloudletSchedulerTimeShared: Cloudlet 10 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  64.61: CloudletSchedulerTimeShared: Cloudlet 9 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  64.61: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  77.04: CloudletSchedulerTimeShared: Cloudlet 8 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  77.04: CloudletSchedulerTimeShared: Cloudlet 10 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  77.04: CloudletSchedulerTimeShared: Cloudlet 9 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  77.04: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+INFO  86.42: DatacenterBrokerSimple2: Cloudlet 7 finished in Vm 1 and returned to broker.
+WARN  89.47: CloudletSchedulerTimeShared: Cloudlet 8 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  89.47: CloudletSchedulerTimeShared: Cloudlet 10 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  89.47: CloudletSchedulerTimeShared: Cloudlet 9 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  89.47: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+INFO  94.27: DatacenterBrokerSimple2: Cloudlet 2 finished in Vm 2 and returned to broker.
+WARN  101.90: CloudletSchedulerTimeShared: Cloudlet 10 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  101.90: CloudletSchedulerTimeShared: Cloudlet 9 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  101.90: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  114.33: CloudletSchedulerTimeShared: Cloudlet 10 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  114.33: CloudletSchedulerTimeShared: Cloudlet 9 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  114.33: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  126.76: CloudletSchedulerTimeShared: Cloudlet 10 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  126.76: CloudletSchedulerTimeShared: Cloudlet 9 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  126.76: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  139.19: CloudletSchedulerTimeShared: Cloudlet 10 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  139.19: CloudletSchedulerTimeShared: Cloudlet 9 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  139.19: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+INFO  141.14: DatacenterBrokerSimple2: Cloudlet 8 finished in Vm 2 and returned to broker.
+INFO  141.36: DatacenterBrokerSimple2: Cloudlet 3 finished in Vm 3 and returned to broker.
+WARN  151.58: CloudletSchedulerTimeShared: Cloudlet 10 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  151.58: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  164.01: CloudletSchedulerTimeShared: Cloudlet 10 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  164.01: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  176.43: CloudletSchedulerTimeShared: Cloudlet 10 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  176.43: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+INFO  188.54: DatacenterBrokerSimple2: Cloudlet 4 finished in Vm 4 and returned to broker.
+WARN  188.76: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  201.19: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  213.62: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+INFO  214.17: DatacenterBrokerSimple2: Cloudlet 9 finished in Vm 3 and returned to broker.
+WARN  226.05: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  238.43: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  250.86: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  263.29: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+INFO  274.81: DatacenterBrokerSimple2: Cloudlet 10 finished in Vm 4 and returned to broker.
+WARN  275.72: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+INFO  282.60: DatacenterBrokerSimple2: Cloudlet 5 finished in Vm 5 and returned to broker.
+INFO  420.89: DatacenterBrokerSimple2: Cloudlet 11 finished in Vm 5 and returned to broker.
+INFO  421.00: Processing last events before simulation shutdown.
+INFO  421.00: DatacenterBrokerSimple2 is shutting down...
+INFO  421.00: VmSimple: Requesting Vm 5 destruction on Host 1/#DC 1. Shutdown will finish immediately (since no Vm shutDownDelay was set).
+INFO  421.00: VmSimple: Requesting Vm 4 destruction on Host 0/#DC 1. Shutdown will finish immediately (since no Vm shutDownDelay was set).
+INFO  421.00: VmSimple: Requesting Vm 3 destruction on Host 1/#DC 1. Shutdown will finish immediately (since no Vm shutDownDelay was set).
+INFO  421.00: VmSimple: Requesting Vm 2 destruction on Host 0/#DC 1. Shutdown will finish immediately (since no Vm shutDownDelay was set).
+INFO  421.00: VmSimple: Requesting Vm 1 destruction on Host 1/#DC 1. Shutdown will finish immediately (since no Vm shutDownDelay was set).
+INFO  421.00: VmSimple: Requesting Vm 0 destruction on Host 0/#DC 1. Shutdown will finish immediately (since no Vm shutDownDelay was set).
+INFO  421.00: #Datacenter 1: Vm 5 destroyed on Host 1/#DC 1. 
+INFO  421.00: #Datacenter 1: Vm 4 destroyed on Host 0/#DC 1. 
+INFO  421.00: #Datacenter 1: Vm 3 destroyed on Host 1/#DC 1. 
+INFO  421.00: #Datacenter 1: Vm 2 destroyed on Host 0/#DC 1. 
+INFO  421.00: #Datacenter 1: Vm 1 destroyed on Host 1/#DC 1. 
+INFO  421.00: #Datacenter 1: Vm 0 destroyed on Host 0/#DC 1. 
+INFO  Simulation: No more future events
+
+INFO  CloudInformationService0: Notify all CloudSim Plus entities to shutdown.
+
+INFO  
+================== Simulation finished at time 421.00 ==================
+
+VmAllocationPolicySimple (First-Fit): AvgResponse=100.00 ms, Makespan=420.89 s, Energy=0.023383 kWh, Availability=100.0%
+INFO  Automatically enabling computation of utilization statistics for VMs on Host could not be performed because it doesn't have VMs yet. You need to enable it for each VM created.
+INFO  Automatically enabling computation of utilization statistics for VMs on Host could not be performed because it doesn't have VMs yet. You need to enable it for each VM created.
+INFO  
+================== Starting CloudSim Plus 8.5.1 ==================
+
+INFO  0.00: #Datacenter 1 is starting...
+INFO  Broker 2 is starting...
+INFO  Entities started.
+INFO  0.00: DatacenterBrokerSimple2: List of 1 datacenters(s) received.
+INFO  0.00: DatacenterBrokerSimple2: Trying to create Vm 0 inside #Datacenter 1
+INFO  0.00: DatacenterBrokerSimple2: Trying to create Vm 1 inside #Datacenter 1
+INFO  0.00: DatacenterBrokerSimple2: Trying to create Vm 2 inside #Datacenter 1
+INFO  0.00: DatacenterBrokerSimple2: Trying to create Vm 3 inside #Datacenter 1
+INFO  0.00: DatacenterBrokerSimple2: Trying to create Vm 4 inside #Datacenter 1
+INFO  0.00: DatacenterBrokerSimple2: Trying to create Vm 5 inside #Datacenter 1
+INFO  0.00: HostSimple: Vm 0 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+INFO  0.00: VmAllocationPolicyRoundRobin: Vm 0 has been allocated to Host 0/#DC 1
+INFO  0.00: HostSimple: Vm 1 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+INFO  0.00: VmAllocationPolicyRoundRobin: Vm 1 has been allocated to Host 1/#DC 1
+INFO  0.00: HostSimple: Vm 2 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+INFO  0.00: VmAllocationPolicyRoundRobin: Vm 2 has been allocated to Host 0/#DC 1
+INFO  0.00: HostSimple: Vm 3 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+INFO  0.00: VmAllocationPolicyRoundRobin: Vm 3 has been allocated to Host 1/#DC 1
+INFO  0.00: HostSimple: Vm 4 is booting up right away in Host 0/#DC 1, since no startup delay (boot time) was set.
+INFO  0.00: VmAllocationPolicyRoundRobin: Vm 4 has been allocated to Host 0/#DC 1
+INFO  0.00: HostSimple: Vm 5 is booting up right away in Host 1/#DC 1, since no startup delay (boot time) was set.
+INFO  0.00: VmAllocationPolicyRoundRobin: Vm 5 has been allocated to Host 1/#DC 1
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 0 to Vm 0 inside Host 0/#DC 1.
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 1 to Vm 1 inside Host 1/#DC 1.
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 2 to Vm 2 inside Host 0/#DC 1.
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 3 to Vm 3 inside Host 1/#DC 1.
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 4 to Vm 4 inside Host 0/#DC 1.
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 5 to Vm 5 inside Host 1/#DC 1.
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 6 to Vm 0 inside Host 0/#DC 1.
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 7 to Vm 1 inside Host 1/#DC 1.
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 8 to Vm 2 inside Host 0/#DC 1.
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 9 to Vm 3 inside Host 1/#DC 1.
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 10 to Vm 4 inside Host 0/#DC 1.
+INFO  0.10: DatacenterBrokerSimple2: Sending Cloudlet 11 to Vm 5 inside Host 1/#DC 1.
+INFO  0.10: DatacenterBrokerSimple2: All 12 waiting Cloudlets submitted to some VM.
+WARN  15.10: CloudletSchedulerTimeShared: Cloudlet 6 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  15.10: CloudletSchedulerTimeShared: Cloudlet 8 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  15.10: CloudletSchedulerTimeShared: Cloudlet 10 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  15.10: CloudletSchedulerTimeShared: Cloudlet 7 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  15.10: CloudletSchedulerTimeShared: Cloudlet 9 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  15.10: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  27.43: CloudletSchedulerTimeShared: Cloudlet 6 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  27.43: CloudletSchedulerTimeShared: Cloudlet 8 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  27.43: CloudletSchedulerTimeShared: Cloudlet 10 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  27.43: CloudletSchedulerTimeShared: Cloudlet 7 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  27.43: CloudletSchedulerTimeShared: Cloudlet 9 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  27.43: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+INFO  35.51: DatacenterBrokerSimple2: Cloudlet 0 finished in Vm 0 and returned to broker.
+WARN  39.86: CloudletSchedulerTimeShared: Cloudlet 8 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  39.86: CloudletSchedulerTimeShared: Cloudlet 10 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  39.86: CloudletSchedulerTimeShared: Cloudlet 7 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  39.86: CloudletSchedulerTimeShared: Cloudlet 9 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  39.86: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+INFO  49.90: DatacenterBrokerSimple2: Cloudlet 6 finished in Vm 0 and returned to broker.
+WARN  52.28: CloudletSchedulerTimeShared: Cloudlet 8 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  52.28: CloudletSchedulerTimeShared: Cloudlet 10 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  52.28: CloudletSchedulerTimeShared: Cloudlet 7 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  52.28: CloudletSchedulerTimeShared: Cloudlet 9 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  52.28: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+INFO  58.95: DatacenterBrokerSimple2: Cloudlet 1 finished in Vm 1 and returned to broker.
+WARN  64.61: CloudletSchedulerTimeShared: Cloudlet 8 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  64.61: CloudletSchedulerTimeShared: Cloudlet 10 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  64.61: CloudletSchedulerTimeShared: Cloudlet 9 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  64.61: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  77.04: CloudletSchedulerTimeShared: Cloudlet 8 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  77.04: CloudletSchedulerTimeShared: Cloudlet 10 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  77.04: CloudletSchedulerTimeShared: Cloudlet 9 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  77.04: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+INFO  86.42: DatacenterBrokerSimple2: Cloudlet 7 finished in Vm 1 and returned to broker.
+WARN  89.47: CloudletSchedulerTimeShared: Cloudlet 8 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  89.47: CloudletSchedulerTimeShared: Cloudlet 10 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  89.47: CloudletSchedulerTimeShared: Cloudlet 9 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  89.47: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+INFO  94.27: DatacenterBrokerSimple2: Cloudlet 2 finished in Vm 2 and returned to broker.
+WARN  101.90: CloudletSchedulerTimeShared: Cloudlet 10 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  101.90: CloudletSchedulerTimeShared: Cloudlet 9 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  101.90: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  114.33: CloudletSchedulerTimeShared: Cloudlet 10 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  114.33: CloudletSchedulerTimeShared: Cloudlet 9 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  114.33: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  126.76: CloudletSchedulerTimeShared: Cloudlet 10 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  126.76: CloudletSchedulerTimeShared: Cloudlet 9 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  126.76: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  139.19: CloudletSchedulerTimeShared: Cloudlet 10 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  139.19: CloudletSchedulerTimeShared: Cloudlet 9 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  139.19: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+INFO  141.14: DatacenterBrokerSimple2: Cloudlet 8 finished in Vm 2 and returned to broker.
+INFO  141.36: DatacenterBrokerSimple2: Cloudlet 3 finished in Vm 3 and returned to broker.
+WARN  151.58: CloudletSchedulerTimeShared: Cloudlet 10 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  151.58: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  164.01: CloudletSchedulerTimeShared: Cloudlet 10 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  164.01: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  176.43: CloudletSchedulerTimeShared: Cloudlet 10 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  176.43: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+INFO  188.54: DatacenterBrokerSimple2: Cloudlet 4 finished in Vm 4 and returned to broker.
+WARN  188.76: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  201.19: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  213.62: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+INFO  214.17: DatacenterBrokerSimple2: Cloudlet 9 finished in Vm 3 and returned to broker.
+WARN  226.05: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  238.43: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  250.86: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+WARN  263.29: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+INFO  274.81: DatacenterBrokerSimple2: Cloudlet 10 finished in Vm 4 and returned to broker.
+WARN  275.72: CloudletSchedulerTimeShared: Cloudlet 11 requested 2867 MB of VmRam but just 1229 was available, which delays Cloudlet processing.
+INFO  282.60: DatacenterBrokerSimple2: Cloudlet 5 finished in Vm 5 and returned to broker.
+INFO  420.89: DatacenterBrokerSimple2: Cloudlet 11 finished in Vm 5 and returned to broker.
+INFO  421.00: Processing last events before simulation shutdown.
+INFO  421.00: DatacenterBrokerSimple2 is shutting down...
+INFO  421.00: VmSimple: Requesting Vm 5 destruction on Host 1/#DC 1. Shutdown will finish immediately (since no Vm shutDownDelay was set).
+INFO  421.00: VmSimple: Requesting Vm 4 destruction on Host 0/#DC 1. Shutdown will finish immediately (since no Vm shutDownDelay was set).
+INFO  421.00: VmSimple: Requesting Vm 3 destruction on Host 1/#DC 1. Shutdown will finish immediately (since no Vm shutDownDelay was set).
+INFO  421.00: VmSimple: Requesting Vm 2 destruction on Host 0/#DC 1. Shutdown will finish immediately (since no Vm shutDownDelay was set).
+INFO  421.00: VmSimple: Requesting Vm 1 destruction on Host 1/#DC 1. Shutdown will finish immediately (since no Vm shutDownDelay was set).
+INFO  421.00: VmSimple: Requesting Vm 0 destruction on Host 0/#DC 1. Shutdown will finish immediately (since no Vm shutDownDelay was set).
+INFO  421.00: #Datacenter 1: Vm 5 destroyed on Host 1/#DC 1. 
+INFO  421.00: #Datacenter 1: Vm 4 destroyed on Host 0/#DC 1. 
+INFO  421.00: #Datacenter 1: Vm 3 destroyed on Host 1/#DC 1. 
+INFO  421.00: #Datacenter 1: Vm 2 destroyed on Host 0/#DC 1. 
+INFO  421.00: #Datacenter 1: Vm 1 destroyed on Host 1/#DC 1. 
+INFO  421.00: #Datacenter 1: Vm 0 destroyed on Host 0/#DC 1. 
+INFO  Simulation: No more future events
+
+INFO  CloudInformationService0: Notify all CloudSim Plus entities to shutdown.
+
+INFO  
+================== Simulation finished at time 421.00 ==================
+
+VmAllocationPolicyRoundRobin: AvgResponse=100.00 ms, Makespan=420.89 s, Energy=0.023383 kWh, Availability=100.0%
